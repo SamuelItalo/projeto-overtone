@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 235, 235);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url(img/Logo\ overtone.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: 200px;
+    background-position: left center;
+}
+header > h1 {
+        padding: 30px;
+        font-size: 3em;
+}
+
