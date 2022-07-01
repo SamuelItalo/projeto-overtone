@@ -26,7 +26,7 @@ header > h1 {
     margin: auto;
     padding-left: 3%;
     padding-top: 20px;
-    padding-bottom: 45px;
+    padding-bottom: 15px;
     font-size: 4.5em;
     text-align: center;
     font-weight: normal;
@@ -34,17 +34,24 @@ header > h1 {
     letter-spacing: 30px;
 }
 
-header > nav > a {
-    font-size: 1.1em;
+header button {
+    background-color: rgb(41, 40, 40);
+    font-size: 1em;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 30px;
+    padding: 6px;
+    border-radius: 6px;
+    margin: 25px;
 }
-header a:hover {
-    padding: 5px;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.479), rgba(255, 255, 255, 0.274), rgba(255, 255, 255, 0.199));
+header a {
+    color: white;
+    text-decoration: none;
 }
+header button:hover {
+    transform: translate(-1px, -1px);
+    transition: transform 0.2s;
+}
+   
 
 .container {
     width: 85%;
