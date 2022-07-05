@@ -14,32 +14,37 @@
 }
 
 header {
-    background-color: rgb(0, 0, 0);
+    height: 100vh;
     color: white;
     text-align: center;
+
+}
+header.cabeca {
+    background: black url(img/Marca\ Horizontal\ Branca.png) center no-repeat ;
+    background-size: cover;
     
 }
-header > h1 {
-    font-size: 14vw;
-    padding-top: 10px;
+.cabeca:hover {
+    block-size: 400px;
+    transition: 1s;
+}
+.cabeca::before {
+    content: "";
+    height: 400px;
+}
+
+
+header a {
     font-weight: normal;
-    letter-spacing: 20px;
-}
-header h1:hover {
-    text-shadow: -3px 3px 12px white;
-    transition: 0.3s;
-}
-header a:active {
-    color: rgb(204, 174, 243);
-    transition: 0.5s;
-    text-shadow: 0px -1px 3px white;
-}
-nav > a {
+    font-size: 1.1em;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    font-weight: normal;
     padding: 10px;
+}
+header a:hover {
+    color: rgb(204, 174, 243);
+    text-shadow: 0px -1px 3px white;
+    transition: 0.3s;
 }
 
 main {
