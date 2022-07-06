@@ -29,8 +29,8 @@ header > div.imagem {
     background-color: rgb(0, 0, 0);
 }
 #img {
-    position: center;
     height: 65vw;
+    margin-top: 50px;
     -webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 1s;
     transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
