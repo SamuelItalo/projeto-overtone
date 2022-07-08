@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agendamento</title>
+    <title>Artístas</title>
     <style>
         @charset "UTF-8";
 
@@ -52,6 +52,7 @@
         }
 
         main > h1 {
+            padding-bottom: 30px;
             font-size: 3em;
             text-align: center;
             tex-shadow: 1px 1px 8px rgba(0, 0, 0, 0.74);
@@ -59,16 +60,11 @@
         main > p {
             text-align: center;
         }
-        div > img {
-            border-radius: 10px;
-            width: 200px;
+        div.box {
+            text-align: center;
             display: block;
-            margin: auto;
-            margin-top: 50px;
-            margin-bottom: 50px;
             
-            box-shadow: 2px 3px 20px 3px rgb(0 0 0 / 60%)
-            
+            border-radius: 20px;
         }
         a {
             text-decoration: none;
@@ -78,6 +74,7 @@
             text-decoration: underline;
             color: rgb(77, 77, 77);
         }
+        
     </style>
 </head>
 <body>
@@ -86,18 +83,20 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="#">Nossa Historia</a>
-            <a href="artistas.html"> Artistas</a>
-            <a href="#">Agendamento</a>
+            <a href="#"> Artistas</a>
+            <a href="agendamento.html">Agendamento</a>
             <a href="endereco.html">Endereço</a>
             <a href="#">Login</a>
         </nav>
     </header>
     <main>
-        <h1><a href="https://api.whatsapp.com/send?phone=5581996595764&text=Ol%C3%A1%2C%20quero%20reservar%20um%20horario!">Fale conosco aqui!</a></h1>
-        
-        <div>
-            <img src="img/QRCode.png" alt="QRcode-fale-conosco">
-        </div>
+        <h1>Confira</h1>
+            <div class="box">
+                <h2>- <a href="https://www.youtube.com/channel/UCy99_QyOTVLdjH2kakE8SuA/featured" target="_blank">Supernova Band</a> -</h2>
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/_5ipoaImL1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
     </main>
+
+   
 </body>
 </html>
